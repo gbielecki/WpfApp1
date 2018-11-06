@@ -7,6 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="147*"/>
+            <ColumnDefinition Width="370*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="btn_search" Content="Button" Grid.Column="1" HorizontalAlignment="Left" Margin="189,33,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="tb_search" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="35,30,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbl_search" Content="Label" HorizontalAlignment="Left" Margin="93,26,0,0" VerticalAlignment="Top" Width="54"/>
+
     </Grid>
 </Window>
